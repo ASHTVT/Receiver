@@ -14,17 +14,10 @@
         android:layout_centerHorizontal="true"
         android:text="@string/start" />
 
-<!--    <TextureView-->
-<!--        android:id="@+id/textureView"-->
-<!--        android:layout_width="250dp"-->
-<!--        android:layout_height="500dp"-->
-<!--        android:layout_gravity="top|center"-->
-<!--        android:background="#808080"-->
-<!--        />-->
     <SurfaceView
         android:id="@+id/surfaceView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="360dp"
+        android:layout_height="480dp"
         android:layout_above="@id/button"
         android:visibility="gone"
         />

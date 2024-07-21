@@ -65,6 +65,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.camera.core)
+
     testImplementation(libs.junit)
 
     androidTestImplementation(libs.androidx.junit)
